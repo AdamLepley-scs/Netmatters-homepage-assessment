@@ -1,13 +1,97 @@
+// =====================================================
+// Config/Variables
+// =====================================================
 
 
-$white: #fff;
+//  Colours
 
-$color-bespoke:    #67809f;
-$color-support:    #4183d7;
-$color-mark:       #2ecc71; 
-$color-tele:       #d64541;
-$color-web:        #926fb1;
-$color-cyber:      #f62459;
-$color-train:      #ce4125;
-$color-btn:        #f7b322;
-$color-background: #333645;
+$white              : #ffffff;
+$grey-light         : #f0f0f0;
+$black              : #000000;
+
+$footer-blue        :   #323544;
+$footer-bottom      :   #212330;
+$newsletter-grey    :   #dddddd;
+
+
+//  Theme
+
+$newsletter-background-color        : $newsletter-grey;
+$newsletter-text-color              : #333645;
+$newsletter-link-alt-color          : #121419;
+
+
+$footer-background-color            : $footer-blue;
+$footer-text-color                  : $white;
+$footer-bottom-color                : $footer-bottom;
+
+$card-background-color              : $grey-light;
+$card-text-color                    : #464957;
+
+//  Social Media Icons
+$social-facebook-color              : #3b5998;
+$social-linkedin-color              : #0077b5;
+$social-twitter-color               : #00aced;
+$social-instagram-color             : #d93175;
+
+//  Service-specific Colours (These are used in the Nav bar, Service Cards, and the News Cards) 
+$service-software                   : #67809f;
+$service-software-dark              : #526781;
+$service-it                         : #4183d7;
+$service-it-dark                    : #2a6ec6;
+$service-marketing                  : #2ecc71;
+$service-marketing-dark             : #1a8c5d;
+$service-telecoms                   : #d64541;
+$service-telecoms-dark              : #ae3a35;
+$service-webdesign                  : #926fb1;
+$service-webdesign-dark             : #7e57a0;
+$service-cybersec                   : #f62459;
+$service-cybersec-dark              : #d91e4f;
+$service-training                   : #ce4125;
+$service-training-dark              : #a9321d;
+$service-business                   : #db8c0d;
+$service-business-dark              : #ab6d0a;
+
+
+//  Misc
+$dark-bg: #323544;
+$vdark-bg: #22242e;
+$light-bg: #ddd;
+$dark-txt: #333645;
+$consent-btn: #75788a;
+$hover-drk: #121419;
+
+$btn-drk: #272936;
+$btn-drk-hover: #121318;
+$side-btn-hover: #444753;
+
+$input: #e9e9e9;
+$contact: #e6e7e9;
+$border-grey: #ccc;
+$border: #5bc0de;
+
+
+$btn-google: #4387f6;
+$google-hover: #166af4;
+
+$btn-trustpilot: #00b67b;
+$trustpilot-hover: #009b69;
+
+$btn-contact: #999aa2;
+$btn-contact-hover: #84858f;
+
+
+//  Font Weights
+$font-xlight: 300;
+$font-light: 400;
+$font-med: 500;
+$font-bold: 600;
+$font-xbold: 700;
+
+
+//  Breakpoints
+$break--xs: 1px;
+$break--s: 460px;
+$break--m: 768px;
+$break--l: 992px;
+$break--xl: 1260px;
