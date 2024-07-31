@@ -2,9 +2,17 @@
 	"version": 3,
 	"file": "styles.css",
 	"sources": [
-		"../scss/styles.scss"
+		"../scss/styles.scss",
+		"../scss/partials/_variables.scss",
+		"../scss/partials/_mixins.scss",
+		"../scss/partials/_helpers.scss",
+		"../scss/partials/_main-styles.scss"
 	],
 	"sourcesContent": [
+		"// Partial imports\r\n@import 'partials/variables',\r\n        'partials/mixins',\r\n        'partials/helpers',\r\n        'partials/main-styles';\r\n\r\n        ",
+		"",
+		"",
+		"",
 		""
 	],
 	"names": [],
