@@ -1,2 +1,300 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?dpfmnu");
+  src: url("../fonts/icomoon.eot?dpfmnu#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?dpfmnu") format("truetype"), url("../fonts/icomoon.woff?dpfmnu") format("woff"), url("../fonts/icomoon.svg?dpfmnu#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* line 19, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 34, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-bar-graph:before {
+  content: "\e900";
+}
+
+/* line 37, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-transfer:before {
+  content: "\e901";
+}
+
+/* line 40, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-arrows:before {
+  content: "\e901";
+}
+
+/* line 43, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-headphones:before {
+  content: "\e910";
+}
+
+/* line 46, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+
+/* line 49, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-folder-open:before {
+  content: "\e930";
+}
+
+/* line 52, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-ticket:before {
+  content: "\e939";
+}
+
+/* line 55, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-cart:before {
+  content: "\e93a";
+}
+
+/* line 58, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-clock:before {
+  content: "\e94e";
+}
+
+/* line 61, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-display:before {
+  content: "\e956";
+}
+
+/* line 64, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-laptop:before {
+  content: "\e957";
+}
+
+/* line 67, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-mobile:before {
+  content: "\e958";
+}
+
+/* line 70, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-drive:before {
+  content: "\e963";
+}
+
+/* line 73, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-search:before {
+  content: "\e986";
+}
+
+/* line 76, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+
+/* line 79, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-download3:before {
+  content: "\e9c7";
+}
+
+/* line 82, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-earth:before {
+  content: "\e9ca";
+}
+
+/* line 85, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-shuffle:before {
+  content: "\ea30";
+}
+
+/* line 88, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+
+/* line 91, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-embed2:before {
+  content: "\ea80";
+}
+
+/* line 96, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+/* line 99, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+/* line 102, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+/* line 106, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+/* line 111, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-angle-double-right:before {
+  content: "\e902";
+}
+
+/* line 114, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-star:before {
+  content: "\e903";
+}
+
+/* line 117, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-lock:before {
+  content: "\e904";
+}
+
+/* line 120, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-flask:before {
+  content: "\e905";
+}
+
+/* line 123, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-clipboard:before {
+  content: "\e906";
+}
+
+/* line 126, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-paste:before {
+  content: "\e906";
+}
+
+/* line 129, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-handshake-o:before {
+  content: "\e907";
+}
+
+/* line 132, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-dashboard:before {
+  content: "\e908";
+}
+
+/* line 135, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-tachometer:before {
+  content: "\e908";
+}
+
+/* line 138, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-phone-square:before {
+  content: "\e909";
+}
+
+/* line 141, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-pencil:before {
+  content: "\e90a";
+}
+
+/* line 144, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-envelope:before {
+  content: "\e90b";
+}
+
+/* line 147, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-money:before {
+  content: "\e90c";
+}
+
+/* line 150, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-graduation-cap:before {
+  content: "\e90d";
+}
+
+/* line 153, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-cloud-download:before {
+  content: "\e90e";
+}
+
+/* line 156, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-cloud:before {
+  content: "\e90f";
+}
+
+/* line 159, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-group:before {
+  content: "\e911";
+}
+
+/* line 162, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-users:before {
+  content: "\e911";
+}
+
+/* line 165, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-cogs:before {
+  content: "\e912";
+}
+
+/* line 168, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-gears:before {
+  content: "\e912";
+}
+
+/* line 171, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-paperplane:before {
+  content: "\e913";
+}
+
+/* line 174, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-send:before {
+  content: "\e913";
+}
+
+/* line 177, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-flight:before {
+  content: "\e913";
+}
+
+/* line 180, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-email:before {
+  content: "\e913";
+}
+
+/* line 183, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-chat:before {
+  content: "\e914";
+}
+
+/* line 186, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-help:before {
+  content: "\e915";
+}
+
+/* line 189, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-security:before {
+  content: "\e916";
+}
+
+/* line 192, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-call:before {
+  content: "\e917";
+}
+
+/* line 195, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-trending_up:before {
+  content: "\e918";
+}
+
+/* line 198, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-phone_in_talk:before {
+  content: "\e919";
+}
+
+/* line 201, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_fonts.scss */
+.icon-mouse:before {
+  content: "\e91b";
+}
 
 /*# sourceMappingURL=styles.css.map */
