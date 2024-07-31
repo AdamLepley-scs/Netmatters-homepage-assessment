@@ -10,7 +10,7 @@
 	],
 	"sourcesContent": [
 		"// Partial imports\r\n@import 'partials/variables',\r\n        'partials/mixins',\r\n        'partials/helpers',\r\n        'partials/main-styles';\r\n\r\n        ",
-		"",
+		"\r\n\r\n$white: #fff;\r\n\r\n$color-bespoke:    #67809f;\r\n$color-support:    #4183d7;\r\n$color-mark:       #2ecc71; \r\n$color-tele:       #d64541;\r\n$color-web:        #926fb1;\r\n$color-cyber:      #f62459;\r\n$color-train:      #ce4125;\r\n$color-btn:        #f7b322;\r\n$color-background: #333645;",
 		"",
 		"",
 		""
