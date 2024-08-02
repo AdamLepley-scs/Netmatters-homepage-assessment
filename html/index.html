@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css">
         <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
         <title>Dashboard | Netmatters Admin</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
@@ -198,73 +199,154 @@
                 </a>
             </div>
         </section>
-          <section class="services">
-            <div class="container">
-              <h1>Our Services</h1>
-              <h3 class="view-work-top"><a href="#">View Our Work <span class="icon icon-arrow-right2"></span></a></h3>
-              <div class="service-list">
-                <div class="card software">
-                  <a href="#">
-                    <span class="icon icon-laptop"></span>
-                    <h2>Bespoke Software</h2>
-                    <p>Bespoke software solutions for all your business needs including integrations and reporting.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card it">
-                  <a href="#">
-                    <span class="icon icon-display"></span>
-                    <h2>IT Support</h2>
-                    <p>Fully managed IT support and consultancy packages tailored to meet your exact business needs.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card digital">
-                  <a href="#">
-                    <span class="icon icon-stats-bars2"></span>
-                    <h2>Digital Marketing</h2>
-                    <p>Driven brand awareness &amp; ROI through creative digital marketing campaigns.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card telecoms">
-                  <a href="#">
-                    <span class="icon icon-phone"></span>
-                    <h2>Telecoms Services</h2>
-                    <p>Business telephony solutions including mobile &amp; connectivity solutions.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card web">
-                  <a href="#">
-                    <span class="icon icon-embed2"></span>
-                    <h2>Web Design</h2>
-                    <p>User-centric design for businesses looking to make a lasting impression.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card security">
-                  <a href="#">
-                    <span class="icon icon-shield"></span>
-                    <h2>Cyber Security</h2>
-                    <p>Prevention, testing, consultancy &amp; breach management services.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-                <div class="card developer">
-                  <a href="#">
-                    <span class="icon icon-library"></span>
-                    <h2>Developer Training</h2>
-                    <p>Web design &amp; software training courses designed to secure a job in tech.</p>
-                    <div class="btn">Read More</div>
-                  </a>
-                </div>
-              </div>
-              <h3 class="display-sm">
-                <a href="#">View Our Work <span class="icon icon-arrow-right2"></span></a>
+        
+        
+        
+        <section id="services" class="reusable-container section">
+            
+          <header>
+              <h2>Our Services</h2>
+              
+              <h3>
+                  <a href="#" class="services__viewmore-top">
+                      View Our Work
+                  <span class="icon-arrow-right2"></span>                </a>
               </h3>
-            </div>
-          </section>
+          </header>
+          
+          
+          <main id="services-card-wrapper" class="service-card__wrapper">
+
+              <div class="service-card1" id="card1">
+                  <a href="#">
+                          
+                      <span class="service-card__icon">
+                          <span class="icon-laptop service-color-software"></span>
+                      </span>
+                      
+                      <h3 class="service-card__title">Bespoke Software</h3>
+                      <p class="service-card__text">
+                          Bespoke software solutions for all your business needs including integrations and reporting.
+                      </p>
+                      <span class="service-card__button service-color-software">
+                          Read More
+                      </span>
+                      
+                  </a>
+              </div>
+              <div class="service-card2" id="card2">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-display service-color-it"></span>
+                      </span>
+
+                      <h3 class="service-card__title">IT Support</h3>
+                      <p class="service-card__text">
+                          Fully managed IT support and consultancy packages tailored to meet your exact business needs.
+                      </p>
+                      <span class="service-card__button service-color-it">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+              <div class="service-card3" id="card3">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-bar-graph service-color-marketing"></span>
+                      </span>
+                      
+                      <h3 class="service-card__title">Digital Marketing</h3>
+                      <p class="service-card__text">
+                          Driven brand awareness & ROI through creative digital marketing campaigns.
+                      </p>
+                      <span class="service-card__button service-color-marketing">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+              <div class="service-card4" id="card4">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-phone_in_talk service-color-telecoms"></span>
+                      </span>
+                      
+                      <h3 class="service-card__title">Telecoms Services</h3>
+                      <p class="service-card__text">
+                          Business telephony solutions including mobile & connectivity solutions.
+                      </p>
+                      <span class="service-card__button service-color-telecoms">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+              <div class="service-card5" id="card5">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-embed2 service-color-webdesign"></span>
+                      </span>
+
+                      <h3 class="service-card__title">Web Design</h3>
+                      <p class="service-card__text">
+                          User-centric design for businesses looking to make a lasting impression.
+                      </p>
+                      <span class="service-card__button service-color-webdesign">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+              <div class="service-card6" id="card6">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-security service-color-cybersec"></span>
+                      </span>
+                      
+                      <h3 class="service-card__title">Cyber Security</h3>
+                      <p class="service-card__text">
+                          Prevention, testing, consultancy & breach management services.
+                      </p>
+                      <span class="service-card__button service-color-cybersec">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+              <div class="service-card7" id="card7">
+                  <a href="#">
+                      
+                      <span class="service-card__icon">
+                          <span class="icon-graduation-cap service-color-training"></span>
+                      </span>
+                      
+                      <h3 class="service-card__title">Developer Training</h3>
+                      <p class="service-card__text">
+                          Web design & software training courses designed to secure a job in tech.
+                      </p>
+                      <span class="service-card__button service-color-training">
+                          Read More
+                      </span>
+                  </a>
+              </div>
+
+          </main>
+
+          <footer>
+              
+              <h3>
+                  <a class="services__viewmore-bottom" href="#">
+                      View Our Work
+                  <span class="icon-arrow-right2"></span>
+                  </a>
+              </h3>
+          </footer>
+
+
+
+      </section>
+
           
           
           <section>
@@ -370,95 +452,141 @@
 
           </section>
       </div>
-          <section class="articles container">
-            <div class="row">
-              <h1>Latest News</h1>
-              <a class="view-all--top" href="#">View All <span class="icon icon-arrow-right2"></span></a>
-            </div>
-            <div class="article-list">
-              <article class="item software">
-                <a href="#">
-                  <div class="img-container">
-                    <span href="#" title="View all: Bespoke Software / News">News</span>
-                    <img src="../img/articles/future-proof-your-business.png">
-                  </div>
-                  
-                  <div class="block">
-                    <div class="text">
-                      <h3>Future-Proof Your Business Processes with Bes...
-                        <span class="read-time">- 5 minute read</span>
-                      </h3>
-                      <p>Sometimes it can feel like there are limitless possibilities when it comes to new technologies helpi...</p>
-                      <div class="btn" href="#">Read More</div>
-                    </div>
+      <main class="news-card__container">
         
-                    <div class="footer">
-                      <div class="avatar">
-                        <img src="../img/netmatters-ltd.webp" alt="Netmatters">
-                      </div>
-                      <div class="details">
-                        <strong>Posted by Netmatters</strong><br>
-                        <time datetime="2024-07-15">15th July 2024</time>
-                      </div> 
+        <div class="news-card">
+            <a href="#" id="news-card1">
+
+                
+                <div class="news-card-block1">
+                    <a class="news-card-block1__category" href="#" id="card1cat">
+                        Insights
+                    </a>
+                    <picture class="news-card-block1__image">
+                        <img src="../img/articles/future-proof-your-business.png">
+                    </picture>
+                </div>
+
+                
+                <div class="news-card-block2">
+                    <h3 class="news-card-block2__title" id="card1tit">
+                      Future-Proof Your Business Processes with Bes...
+                        <p class="news-card-block2__title-readtime"> - 5 minute read</p>
+                    </h3>
+                    <p class="news-card-block2__description">
+                      Sometimes it can feel like there are limitless possibilities when it comes to new technologies helpi...
+                    </p>
+                    <a class="button news-card-block2__button" href="#" id="card1cat">
+                        Read More
+                    </a>
+                    
+                    <div class="news-card-block2__author">
+                        <img class="news-card-block2__author-image" src="../img/netmatters-ltd.webp">
+                        <div class="news-card-block2__author-text">
+                            <h5 class="news-card-block2__author-text-author-name">
+                                Posted by
+                                <br>
+                                Netmatters
+                            </h5>
+                            <p class="news-card-block2__author-text-author-date">
+                                15th July 2024
+                            </p>
+                        </div>
                     </div>
-                  </div>
-                </a>
-              </article>
-              <article class="item security">
-                <a href="#">
-                  <div class="img-container">
-                    <span href="#" title="View all: Cyber Security / News">News</span>
-                    <img src="../img/articles/junes-notables-2024.webp">
-                  </div>
-                  
-                  <div class="block">
-                    <div class="text">
-                      <h3>June's Notables 2024 - Celebrating Our Team</h3>
-                      <p>June Notables 2024 Celebrating the achievements and dedication of our staff, at Netmatters, we put a...</p>
-                      <div class="btn" href="#">Read More</div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="news-card">
+            <a href="#" id="news-card2">
+
+               
+                <div class="news-card-block1">
+                    <a class="news-card-block1__category" href="#" id="card2cat">
+                        News
+                    </a>
+                    <picture class="news-card-block1__image">
+                        <img src="../img/articles/junes-notables-2024.webp">
+                    </picture>
+                </div>
+
+                
+                <div class="news-card-block2">
+                    <h3 class="news-card-block2__title" id="card2tit">
+                      June's Notables 2024 - Celebrating Our Team
+                        <p class="news-card-block2__title-readtime"></p>
+                    </h3>
+                    <p class="news-card-block2__description">
+                      June Notables 2024 Celebrating the achievements and dedication of our staff, at Netmatters, we put a...
+                    </p>
+                    <a class="button news-card-block2__button" href="#" id="card2but">
+                        Read More
+                    </a>
+                    
+                    <div class="news-card-block2__author">
+                        <img class="news-card-block2__author-image" src="../img/netmatters-ltd.webp">
+                        <div class="news-card-block2__author-text">
+                            <h5 class="news-card-block2__author-text-author-name">
+                                Posted by
+                                <br>
+                                Netmatters
+                            </h5>
+                            <p class="news-card-block2__author-text-author-date">
+                                8th July 2024
+                            </p>
+                        </div>
                     </div>
-        
-                    <div class="footer">
-                      <div class="avatar">
-                        <img src="../img/netmatters-ltd.webp" alt="Netmatters">
-                      </div>
-                      <div class="details">
-                        <strong>Posted by Netmatters</strong><br>
-                        <time datetime="2024-07-08">8th July 2024</time>
-                      </div> 
+
+                </div>
+            </a>
+        </div>
+
+        <div class="news-card" id="news-hide">
+            <a href="#" id="news-card3">
+
+                
+                <div class="news-card-block1">
+                    <a class="news-card-block1__category" href="#" id="card3cat">
+                        Careers
+                    </a>
+                    <picture class="news-card-block1__image">
+                        <img src="../img/articles/elliott-peacock.webp">
+                    </picture>
+                </div>
+
+                
+                <div class="news-card-block2">
+                    <h3 class="news-card-block2__title" id="card3tit">
+                      Elliott Peacock – Netmatters 10 Year Hero
+                        <p class="news-card-block2__title-readtime"> </p>
+                    </h3>
+                    <p class="news-card-block2__description">
+                      Elliott Peacock – Netmatters 10 Year Hero Today, we celebrate the brilliant accomplishments of Ellio...
+                    </p>
+                    <a class="button news-card-block2__button" href="#" id="card3but">
+                        Read More
+                    </a>
+                   
+                    <div class="news-card-block2__author">
+                        <img class="news-card-block2__author-image" src="../img/netmatters-ltd.webp">
+                        <div class="news-card-block2__author-text">
+                            <h5 class="news-card-block2__author-text-author-name">
+                                Posted by
+                                <br>
+                                Netmatters
+                            </h5>
+                            <p class="news-card-block2__author-text-author-date">
+                                5th July 2024
+                            </p>
+                        </div>
                     </div>
-                  </div>
-                </a>
-              </article>
-              <article class="item busdev">
-                <a href="#">
-                  <div class="img-container">
-                    <span href="#" title="View all: Business Development / News">News</span>
-                    <img src="../img/articles/elliott-peacock.webp">
-                  </div>
-                  
-                  <div class="block">
-                    <div class="text">
-                      <h3>Elliott Peacock – Netmatters 10 Year Hero</h3>
-                      <p>Elliott Peacock – Netmatters 10 Year Hero Today, we celebrate the brilliant accomplishments of Ellio...</p>
-                      <div class="btn" href="#">Read More</div>
-                    </div>
-        
-                    <div class="footer">
-                      <div class="avatar">
-                        <img src="../img/netmatters-ltd.webp" alt="Netmatters">
-                      </div>
-                      <div class="details">
-                        <strong>Posted by Netmatters</strong><br>
-                        <time datetime="2024-07-05">5th July 2024</time>
-                      </div> 
-                    </div>
-                  </div>
-                </a>
-              </article>
-            </div>
-            <a class="view-all display-sm" href="#">View All <span class="icon icon-arrow-right2"></span></a>
-          </section>
+
+                </div>
+            </a>
+        </div>
+
+    </main>
           
           
           

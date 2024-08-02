@@ -52,8 +52,8 @@ body {
 }
 
 .button {
-  @include button(green);
-}
+    @include button(green);
+  }
 
 .section {
   padding-top: 50px;
@@ -102,6 +102,350 @@ a {
             font-size: 1.25rem;
             background-color: $service-webdesign ;
         }
+    }
+}
+// Services Rules
+
+#services {
+
+    display: grid;
+    text-align: center;
+    padding-bottom: 0px;
+
+    > header {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+        
+    h2 {
+        text-align: left;
+        font-size: 2.7rem;
+        font-weight: $font-bold;
+        justify-self: left;
+        color: $dark-txt;
+        
+    }
+
+    h3 {
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+}
+
+.services__viewmore {
+    color: $newsletter-text-color;
+    text-decoration: none;
+    :hover{
+        text-decoration: underline;
+    }
+
+    &-top {
+        display: inline;
+        float: right;
+        @include mq(small) {display: none;}
+        @include mq(x-small) {display: none;}
+
+        justify-self: right;
+        color: $dark-txt;
+        font-weight: $font-bold;
+        font-size: 1.625rem;
+        :hover{
+            text-decoration: underline;
+        }
+        color: $dark-txt;
+    }
+
+    &-bottom {
+        display: none;
+        @include mq(small) {display: inline;}
+        @include mq(x-small) {display: inline;}
+
+        font-size: 1.625rem;
+        font-weight: $font-bold;
+        color: $dark-txt;
+
+    }
+}
+
+#services-card-wrapper {
+
+    display: grid;
+    grid-gap: 30px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    grid-template-areas:
+    "software"
+    "support"
+    "digital"
+    "telecoms"
+    "design"
+    "cyber"
+    "developer";
+
+    @include mq(medium){
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "software software"
+        "support support"
+        "digital digital"
+        "telecoms design"
+        "cyber developer";
+    }
+
+    @include mq(large) {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+        "software software support support digital digital"
+        "telecoms telecoms telecoms design design design"
+        "cyber cyber cyber developer developer developer";
+    }
+
+    @include mq(x-large) {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas:
+        "software software software software support support support support digital digital digital digital"
+        "telecoms telecoms telecoms design design design cyber cyber cyber developer developer developer";
+    }
+
+}
+
+
+.service-card {
+
+
+
+
+    box-shadow: 0 3px 35px rgba(0,0,0,.1);
+
+    :hover {
+        text-decoration: none;
+    }
+
+    &1:hover {
+        @include cardhover($service-software);
+        a > .service-card__button {
+            color:$service-software;
+        }
+        a > span > span {
+            color:$service-software;
+            background-color: $white;
+        }
+    } 
+    &2:hover {
+        @include cardhover($service-it);
+        a > .service-card__button {
+            color:$service-it;
+        }
+        a > span > span {
+            color:$service-it;
+            background-color: $white;
+        }
+    } 
+    &3:hover {
+        @include cardhover($service-marketing);
+        a > .service-card__button {
+            color:$service-marketing;
+        }
+        a > span > span {
+            color:$service-marketing;
+            background-color: $white;
+        }
+    } 
+    &4:hover {
+        @include cardhover($service-telecoms);
+        a > .service-card__button {
+            color:$service-telecoms;
+        }
+        a > span > span {
+            color:$service-telecoms;
+            background-color: $white;
+        }
+    } 
+    &5:hover {
+        @include cardhover($service-webdesign);
+        a > .service-card__button {
+            color:$service-webdesign;
+        }
+        a > span > span {
+            color:$service-webdesign;
+            background-color: $white;
+        }
+    } 
+    &6:hover {
+        @include cardhover($service-cybersec);
+        a > .service-card__button {
+            color:$service-cybersec;
+        }
+        a > span > span {
+            color:$service-cybersec;
+            background-color: $white;
+        }
+    }
+    &7:hover {
+        @include cardhover($service-training);
+        a > .service-card__button {
+            color:$service-training;
+        }
+        a > span > span {
+            color:$service-training;
+            background-color: $white;
+        }
+    } 
+
+    &1, &2, &3, &4, &5, &6, &7 {
+        border: 1px solid #ccc;
+        box-shadow: 0 3px 35px rgba(0,0,0,.1);
+        position: relative; 
+        border-radius: 15px;
+        background-color: #fff;
+        top: 0; 
+        transition: .5s ease;
+
+        &:hover > a > h3, &:hover > a > p {
+            color:$white;
+        }
+        &:hover > a > .service-card__button {
+            background-color: $white;
+            //color: inherit;
+        }
+
+        a {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__icon {
+
+        //For the Icon
+        span {
+            display: inline-block;
+            padding: 17.5px;
+            margin-bottom: 17px;
+            font-size: 30px;
+            color: $white;
+            border-radius: 100%;
+        }
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: $dark-txt;
+        font-weight: $font-light;
+
+        padding-bottom: 10px;
+        margin-bottom: 11px;
+        margin-top: 0px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: .8125rem;
+        line-height: 1.375rem;
+        color: $dark-txt;
+        margin-top: 0px;
+    }
+
+    &__button {
+        @include button(blue, $lheight: 35px);
+        margin-bottom: 30px;
+        font-size: 17.008px;
+        width: auto;
+    }
+}
+
+
+
+
+.service-color-software {
+    background-color: $service-software;
+}
+
+.service-color-it {
+    background-color: $service-it;
+}
+.service-color-marketing {
+    background-color: $service-marketing;
+}
+.service-color-telecoms {
+    background-color: $service-telecoms;
+}
+.service-color-webdesign {
+    background-color: $service-webdesign;
+}
+.service-color-cybersec {
+    background-color: $service-cybersec;
+}
+.service-color-training {
+    background-color: $service-training;
+}
+
+#card1 {
+    grid-area: software;
+    :hover {
+        border-color: $service-software ;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+
+#card2 {
+    grid-area: support;
+    :hover {
+        border-color: $service-it ;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+
+#card3 {
+    grid-area: digital;
+    :hover {
+        border-color: $service-marketing;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+#card4 {
+    grid-area: telecoms;
+    :hover {
+        border-color: $service-telecoms;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+#card5 {
+    grid-area: design;
+    :hover {
+        border-color: $service-webdesign;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+#card6 {
+    grid-area: cyber;
+    :hover {
+        border-color: $service-cybersec;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+}
+#card7 {
+    grid-area: developer;
+    :hover {
+        border-color: $service-training;
+        top: -10px;
+        transition: 0.5s ease;
+    }
+    a:hover{
+        color: $white;
     }
 }
 
@@ -425,9 +769,232 @@ a {
 
 }
 
+// News Rules
+// known issues - Need to make news card animate on hover
+
+
+#news {
+
+    display: grid;
+    text-align: center;
+
+    h2 {
+        text-align: left;
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: $newsletter-text-color;
+    }
+
+    &__viewmore {
+        text-decoration: none;
+        :hover{
+            text-decoration: underline;
+        }
+
+        &-top {
+            display: inline;
+            float: right;
+            @include mq(small) {display: none;}
+            @include mq(x-small) {display: none;}
+
+            justify-self: right;
+            color: $dark-txt;
+            font-weight: $font-bold;
+            font-size: 1.625rem;
+            color: $dark-txt;
+            :hover{
+                text-decoration: underline;
+            }
+        }
+        &-bottom {
+            display: none;
+            @include mq(small) {display: inline;}
+            @include mq(x-small) {display: inline;}
+
+            font-size: 1.625rem;
+            color: $dark-txt;
+
+        }
+    }
+}
+
+#card1cat, #card1but {
+    background-color: $service-marketing;
+    color: $white;
+}
+#card2cat, #card2but {
+    background-color: $service-business;
+    color: $white;
+}
+#card3cat, #card3but {
+    background-color: $service-it ;
+    color: $white;
+}
+#card1tit{color:$service-marketing;}
+#card2tit{color:$service-business;}
+#card3tit{color:$service-it;}
+
+
+.news-card {
+    
+    &__container {
+        display: grid;
+        grid-template-areas:
+        "one"
+        "two"
+        "three";
+
+        @include mq(medium) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+            "one two";
+        }
+
+        @include mq(x-large) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+            "one two three";
+        }
+    }
+
+    background-color: $white;
+    align-self: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 30px 20px 20px;
+    box-shadow: 0 3px 35px rgba(0,0,0,.1);
+
+
+    &-block1 {
+
+        display: block;
+        position: relative; 
+
+        &__category {
+            background: $service-business;
+            display: block;
+            
+            background-origin: padding-box;
+            position: absolute;
+            right: 0px;
+            padding: 0 10px;
+            z-index: 1;
+            top: 10px;
+
+            font-size: .75rem;
+            line-height: 1.438rem;
+            color: $white;
+            text-transform: uppercase;
+        }
+
+        &__image {
+            box-sizing: border-box;
+            img {
+
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &-block2 {
+
+        text-align: left;
+        padding: 30px;
+
+        &__title {
+
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 600;
+
+            &-readtime {
+                font-size: .85rem;
+                color: rgb(51, 54, 69 / 50%);
+                vertical-align: middle;
+                display: inline;
+                text-transform: uppercase;
+                font-weight: $font-light;
+            }
+        }
+    
+        &__description {
+            font-weight: 400;
+            font-size: .8125rem;
+            line-height: 1.375rem;
+        }
+    
+        &__button {
+            @include button($service-business, $bradius: 3px, $lheight: 35px);
+            padding: 5px 15px;
+        }
+
+
+        &__author {
+
+            border-top: 1px solid #ccc;
+            margin-top: 30px;
+            padding-top: 30px;
+            display: flex;
+            width: 100%;
+            
+
+            &-image {
+                border-radius: 50%;
+                overflow: hidden;
+                height: 47px;
+                width: 47px;
+            }
+
+            &-text {
+
+                
+                padding-left: 20px;
+                line-height: 1.35rem;
+                text-align: left;
+
+                h5, p {
+                    margin:0;
+                    br {
+                        display: none;
+                    }
+                }
+                &-name {
+                    display: table-cell;
+                    font-weight: $font-bold;
+                    color: #333645;
+                }
+
+                &-date {
+                    line-height: 1.37rem;
+                }
+            }
+        }
+
+    }
+
+}
+
+#news-hide {
+    @include mq(medium) {
+        display: none;
+    }
+    @include mq(x-large) {
+        display: initial;
+    }
+}
+
+
+#news-card1 {grid-area: one;}
+#news-card2 {grid-area: two;}
+#news-card3 {grid-area: three;}
+
 
 
 // Footer rules
+//known issue - bottom footer section not filling full width of page on larger viewports
+//known issue - text is to far left making the mange consents button cover it
 
 #page-footer-background {
     background-color: $footer-background-color;
