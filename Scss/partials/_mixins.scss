@@ -16,7 +16,6 @@
     }
 }
 
-//  Media Queries For Responsive Layout
 @mixin mq($breakpoint) {
     @if $breakpoint == "x-small" {
       @media (min-width: $break--xs) and (max-width: $break--s) {
@@ -43,7 +42,6 @@
     }
   }
 
-  //  For the service cards hover effect.
   @mixin cardhover($colour) { 
     background-color:$colour; 
     border-color:$colour;
