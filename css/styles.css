@@ -684,143 +684,149 @@ a {
   text-decoration: none;
 }
 
-/* line 332, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 319, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+.nav-listitem :hover + #submenu-software {
+  text-decoration: none;
+  display: none;
+}
+
+/* line 330, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .nav-listitem a {
   display: block;
   padding-top: 19px;
   padding-bottom: 18px;
 }
 
-/* line 337, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 335, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .nav-listitem a span {
   display: block;
 }
 
-/* line 340, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 338, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .nav-listitem a small {
   font-size: 10px;
   line-height: 10px;
   letter-spacing: 0.4px;
 }
 
-/* line 353, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 351, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .nav__listitem-submenu {
   display: none;
 }
 
-/* line 359, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 357, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-software {
   color: #67809f;
 }
 
-/* line 360, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 358, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-it {
   color: #4183d7;
 }
 
-/* line 361, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 359, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-marketing {
   color: #2ecc71;
 }
 
-/* line 362, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 360, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-telecoms {
   color: #d64541;
 }
 
-/* line 363, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 361, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-web {
   color: #926fb1;
 }
 
-/* line 364, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 362, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-security {
   color: #f62459;
 }
 
-/* line 365, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 363, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #nav-developer {
   color: #ce4125;
 }
 
-/* line 367, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 365, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-software:hover {
   background-color: #67809f;
   color: #ffffff;
 }
 
-/* line 370, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 368, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-software:hover > a > span {
   color: #ffffff;
 }
 
-/* line 374, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 372, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-it:hover {
   background-color: #4183d7;
   color: #ffffff;
 }
 
-/* line 377, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 375, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-it:hover > a > span {
   color: #ffffff;
 }
 
-/* line 381, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 379, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-marketing:hover {
   background-color: #2ecc71;
   color: #ffffff;
 }
 
-/* line 384, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 382, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-marketing:hover > a > span {
   color: #ffffff;
 }
 
-/* line 388, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 386, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-telecoms:hover {
   background-color: #d64541;
   color: #ffffff;
 }
 
-/* line 391, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 389, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-telecoms:hover > a > span {
   color: #ffffff;
 }
 
-/* line 395, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 393, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-web:hover {
   background-color: #926fb1;
   color: #ffffff;
 }
 
-/* line 398, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 396, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-web:hover > a > span {
   color: #ffffff;
 }
 
-/* line 402, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 400, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-security:hover {
   background-color: #f62459;
   color: #ffffff;
 }
 
-/* line 405, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 403, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-security:hover > a > span {
   color: #ffffff;
 }
 
-/* line 409, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 407, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-developer:hover {
   background-color: #ce4125;
   color: #ffffff;
 }
 
-/* line 412, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 410, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #navmenu-developer:hover > a > span {
   color: #ffffff;
 }
 
-/* line 418, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 416, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .burger {
   display: flex;
   flex-direction: column;
@@ -832,7 +838,7 @@ a {
   cursor: pointer;
 }
 
-/* line 429, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 427, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .burger__box {
   padding: 15px 15px;
   background: #323544;
@@ -840,7 +846,7 @@ a {
   border-radius: 3px;
 }
 
-/* line 436, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 434, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .burger__top, .burger__middle, .burger__bottom {
   background: #ffffff;
   height: 4px;
@@ -849,7 +855,7 @@ a {
   display: block;
 }
 
-/* line 449, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 447, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner {
   color: #ffffff;
   background-color: #000000;
@@ -857,7 +863,7 @@ a {
   display: block;
 }
 
-/* line 454, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 452, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner img {
   object-fit: cover;
   height: 100%;
@@ -865,7 +871,7 @@ a {
   opacity: 50%;
 }
 
-/* line 460, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 458, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner div {
   align-self: auto;
   margin: auto;
@@ -874,7 +880,7 @@ a {
   display: block;
 }
 
-/* line 466, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 464, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner div h1 {
   font-weight: 600;
   font-size: 2.5rem;
@@ -882,7 +888,7 @@ a {
   margin-bottom: 1.25rem;
 }
 
-/* line 472, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 470, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner div p {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -890,28 +896,28 @@ a {
   margin-bottom: 0.375rem;
 }
 
-/* line 478, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 476, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #banner div a {
   margin-top: 31px;
   font-size: 1.25rem;
   background-color: #926fb1;
 }
 
-/* line 488, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 486, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #services {
   display: grid;
   text-align: center;
   padding-bottom: 0px;
 }
 
-/* line 494, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 492, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #services > header {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
 
-/* line 500, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 498, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #services h2 {
   text-align: left;
   font-size: 2.7rem;
@@ -920,24 +926,24 @@ a {
   color: #333645;
 }
 
-/* line 509, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 507, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #services h3 {
   margin-top: auto;
   margin-bottom: auto;
 }
 
-/* line 517, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 515, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .services__viewmore {
   color: #333645;
   text-decoration: none;
 }
 
-/* line 520, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 518, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .services__viewmore :hover {
   text-decoration: underline;
 }
 
-/* line 524, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 522, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .services__viewmore-top {
   display: inline;
   float: right;
@@ -949,25 +955,25 @@ a {
 }
 
 @media (min-width: 460px) and (max-width: 768px) {
-  /* line 524, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 522, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .services__viewmore-top {
     display: none;
   }
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 524, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 522, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .services__viewmore-top {
     display: none;
   }
 }
 
-/* line 534, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 532, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .services__viewmore-top :hover {
   text-decoration: underline;
 }
 
-/* line 540, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 538, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .services__viewmore-bottom {
   display: none;
   font-size: 1.625rem;
@@ -976,20 +982,20 @@ a {
 }
 
 @media (min-width: 460px) and (max-width: 768px) {
-  /* line 540, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 538, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .services__viewmore-bottom {
     display: inline;
   }
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 540, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 538, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .services__viewmore-bottom {
     display: inline;
   }
 }
 
-/* line 552, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 550, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #services-card-wrapper {
   display: grid;
   grid-gap: 30px;
@@ -1000,7 +1006,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 552, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 550, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #services-card-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "software software" "support support" "digital digital" "telecoms design" "cyber developer";
@@ -1008,7 +1014,7 @@ a {
 }
 
 @media (min-width: 992px) {
-  /* line 552, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 550, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #services-card-wrapper {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "software software support support digital digital" "telecoms telecoms telecoms design design design" "cyber cyber cyber developer developer developer";
@@ -1016,24 +1022,24 @@ a {
 }
 
 @media (min-width: 1260px) {
-  /* line 552, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 550, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #services-card-wrapper {
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: "software software software software support support support support digital digital digital digital" "telecoms telecoms telecoms design design design cyber cyber cyber developer developer developer";
   }
 }
 
-/* line 596, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 594, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* line 603, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 601, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card :hover {
   text-decoration: none;
 }
 
-/* line 607, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 605, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1:hover {
   background-color: #67809f;
   border-color: #67809f;
@@ -1041,18 +1047,18 @@ a {
   top: -10px;
 }
 
-/* line 609, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 607, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1:hover a > .service-card__button {
   color: #67809f;
 }
 
-/* line 612, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 610, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1:hover a > span > span {
   color: #67809f;
   background-color: #ffffff;
 }
 
-/* line 617, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 615, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card2:hover {
   background-color: #4183d7;
   border-color: #4183d7;
@@ -1060,18 +1066,18 @@ a {
   top: -10px;
 }
 
-/* line 619, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 617, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card2:hover a > .service-card__button {
   color: #4183d7;
 }
 
-/* line 622, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 620, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card2:hover a > span > span {
   color: #4183d7;
   background-color: #ffffff;
 }
 
-/* line 627, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 625, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card3:hover {
   background-color: #2ecc71;
   border-color: #2ecc71;
@@ -1079,18 +1085,18 @@ a {
   top: -10px;
 }
 
-/* line 629, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 627, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card3:hover a > .service-card__button {
   color: #2ecc71;
 }
 
-/* line 632, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 630, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card3:hover a > span > span {
   color: #2ecc71;
   background-color: #ffffff;
 }
 
-/* line 637, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 635, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card4:hover {
   background-color: #d64541;
   border-color: #d64541;
@@ -1098,18 +1104,18 @@ a {
   top: -10px;
 }
 
-/* line 639, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 637, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card4:hover a > .service-card__button {
   color: #d64541;
 }
 
-/* line 642, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 640, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card4:hover a > span > span {
   color: #d64541;
   background-color: #ffffff;
 }
 
-/* line 647, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 645, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card5:hover {
   background-color: #926fb1;
   border-color: #926fb1;
@@ -1117,18 +1123,18 @@ a {
   top: -10px;
 }
 
-/* line 649, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 647, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card5:hover a > .service-card__button {
   color: #926fb1;
 }
 
-/* line 652, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 650, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card5:hover a > span > span {
   color: #926fb1;
   background-color: #ffffff;
 }
 
-/* line 657, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 655, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card6:hover {
   background-color: #f62459;
   border-color: #f62459;
@@ -1136,18 +1142,18 @@ a {
   top: -10px;
 }
 
-/* line 659, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 657, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card6:hover a > .service-card__button {
   color: #f62459;
 }
 
-/* line 662, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 660, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card6:hover a > span > span {
   color: #f62459;
   background-color: #ffffff;
 }
 
-/* line 667, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 665, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card7:hover {
   background-color: #ce4125;
   border-color: #ce4125;
@@ -1155,18 +1161,18 @@ a {
   top: -10px;
 }
 
-/* line 669, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 667, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card7:hover a > .service-card__button {
   color: #ce4125;
 }
 
-/* line 672, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 670, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card7:hover a > span > span {
   color: #ce4125;
   background-color: #ffffff;
 }
 
-/* line 678, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 676, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1, .service-card2, .service-card3, .service-card4, .service-card5, .service-card6, .service-card7 {
   border: 1px solid #ccc;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
@@ -1177,17 +1183,17 @@ a {
   transition: .5s ease;
 }
 
-/* line 687, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 685, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1:hover > a > h3, .service-card1:hover > a > p, .service-card2:hover > a > h3, .service-card2:hover > a > p, .service-card3:hover > a > h3, .service-card3:hover > a > p, .service-card4:hover > a > h3, .service-card4:hover > a > p, .service-card5:hover > a > h3, .service-card5:hover > a > p, .service-card6:hover > a > h3, .service-card6:hover > a > p, .service-card7:hover > a > h3, .service-card7:hover > a > p {
   color: #ffffff;
 }
 
-/* line 690, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 688, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1:hover > a > .service-card__button, .service-card2:hover > a > .service-card__button, .service-card3:hover > a > .service-card__button, .service-card4:hover > a > .service-card__button, .service-card5:hover > a > .service-card__button, .service-card6:hover > a > .service-card__button, .service-card7:hover > a > .service-card__button {
   background-color: #ffffff;
 }
 
-/* line 695, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 693, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card1 a, .service-card2 a, .service-card3 a, .service-card4 a, .service-card5 a, .service-card6 a, .service-card7 a {
   padding: 30px;
   display: flex;
@@ -1195,7 +1201,7 @@ a {
   align-items: center;
 }
 
-/* line 706, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 704, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card__icon span {
   display: inline-block;
   padding: 17.5px;
@@ -1205,7 +1211,7 @@ a {
   border-radius: 100%;
 }
 
-/* line 716, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 714, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card__title {
   font-weight: 300;
   font-size: 1.3rem;
@@ -1216,7 +1222,7 @@ a {
   margin-top: 0px;
 }
 
-/* line 727, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 725, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card__text {
   font-weight: 400;
   font-size: .8125rem;
@@ -1225,7 +1231,7 @@ a {
   margin-top: 0px;
 }
 
-/* line 735, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 733, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-card__button {
   background-color: blue;
   border-radius: 3px;
@@ -1246,131 +1252,131 @@ a {
   text-decoration: none;
 }
 
-/* line 746, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 744, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-software {
   background-color: #67809f;
 }
 
-/* line 750, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 748, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-it {
   background-color: #4183d7;
 }
 
-/* line 753, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 751, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-marketing {
   background-color: #2ecc71;
 }
 
-/* line 756, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 754, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-telecoms {
   background-color: #d64541;
 }
 
-/* line 759, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 757, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-webdesign {
   background-color: #926fb1;
 }
 
-/* line 762, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 760, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-cybersec {
   background-color: #f62459;
 }
 
-/* line 765, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 763, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .service-color-training {
   background-color: #ce4125;
 }
 
-/* line 769, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 767, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card1 {
   grid-area: software;
 }
 
-/* line 771, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 769, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card1 :hover {
   border-color: #67809f;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 778, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 776, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card2 {
   grid-area: support;
 }
 
-/* line 780, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 778, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card2 :hover {
   border-color: #4183d7;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 787, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 785, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card3 {
   grid-area: digital;
 }
 
-/* line 789, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 787, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card3 :hover {
   border-color: #2ecc71;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 795, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 793, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card4 {
   grid-area: telecoms;
 }
 
-/* line 797, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 795, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card4 :hover {
   border-color: #d64541;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 803, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 801, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card5 {
   grid-area: design;
 }
 
-/* line 805, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 803, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card5 :hover {
   border-color: #926fb1;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 811, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 809, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card6 {
   grid-area: cyber;
 }
 
-/* line 813, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 811, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card6 :hover {
   border-color: #f62459;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 819, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 817, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card7 {
   grid-area: developer;
 }
 
-/* line 821, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 819, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card7 :hover {
   border-color: #ce4125;
   top: -10px;
   transition: 0.5s ease;
 }
 
-/* line 826, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 824, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card7 a:hover {
   color: #ffffff;
 }
 
-/* line 834, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 832, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .certcarousel {
   display: flex;
   flex-direction: row;
@@ -1379,30 +1385,30 @@ a {
   width: 100%;
 }
 
-/* line 842, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 840, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .cert {
   position: relative;
   flex-grow: 1;
   padding: 0 40px;
 }
 
-/* line 849, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 847, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .cert__logo {
   filter: grayscale(1);
 }
 
-/* line 852, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 850, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .cert__logo:hover {
   filter: grayscale(0);
 }
 
-/* line 860, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 858, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .clientcarousel {
   display: block;
   width: 100%;
 }
 
-/* line 865, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 863, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .logowrapper {
   display: flex;
   flex-direction: row;
@@ -1413,7 +1419,7 @@ a {
   padding-bottom: 50px;
 }
 
-/* line 876, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 874, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client {
   position: relative;
   flex-grow: 1;
@@ -1423,24 +1429,24 @@ a {
   align-items: center;
 }
 
-/* line 885, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 883, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubblebox:hover, .client__bubble:hover, :hover + .client__bubblebox {
   display: block;
 }
 
-/* line 889, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 887, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__logo {
   max-height: 100px;
   max-width: 200px;
   filter: grayscale(1);
 }
 
-/* line 893, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 891, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__logo:hover {
   filter: grayscale(0);
 }
 
-/* line 898, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 896, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble {
   z-index: -1;
   background-color: #333645;
@@ -1451,7 +1457,7 @@ a {
   max-width: 280px;
 }
 
-/* line 907, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 905, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubblebox {
   display: none;
   position: absolute;
@@ -1461,7 +1467,7 @@ a {
   margin: 0 auto 32px;
 }
 
-/* line 919, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 917, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-link--webdesign {
   background-color: #926fb1;
   border-radius: 3px;
@@ -1480,7 +1486,7 @@ a {
   text-decoration: none;
 }
 
-/* line 923, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 921, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-link--marketing {
   background-color: #2ecc71;
   border-radius: 3px;
@@ -1499,7 +1505,7 @@ a {
   text-decoration: none;
 }
 
-/* line 927, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 925, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-link--software {
   background-color: #67809f;
   border-radius: 3px;
@@ -1518,7 +1524,7 @@ a {
   text-decoration: none;
 }
 
-/* line 931, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 929, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-link--it {
   background-color: #4183d7;
   border-radius: 3px;
@@ -1537,7 +1543,7 @@ a {
   text-decoration: none;
 }
 
-/* line 938, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 936, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-header {
   font-size: 1.125rem;
   font-weight: 400;
@@ -1546,14 +1552,14 @@ a {
   margin: 0;
 }
 
-/* line 946, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 944, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-text {
   font-size: .8125rem;
   line-height: 1.375rem;
   margin: 0;
 }
 
-/* line 952, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 950, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-triangle {
   position: absolute;
   bottom: -38px;
@@ -1561,7 +1567,7 @@ a {
   margin-left: -36px;
 }
 
-/* line 958, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 956, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .client__bubble-triangle::after {
   content: "";
   margin: auto;
@@ -1571,12 +1577,12 @@ a {
   border-width: 35px 36px 0;
 }
 
-/* line 975, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 973, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-section-background {
   background-color: #323544;
 }
 
-/* line 981, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 979, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-first {
   position: relative;
   min-height: 1px;
@@ -1586,30 +1592,30 @@ a {
 }
 
 @media (min-width: 992px) {
-  /* line 981, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 979, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #about-first {
     width: 50%;
   }
 }
 
-/* line 994, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 992, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-first p {
   line-height: 1.875rem;
   margin-bottom: 10px;
 }
 
-/* line 999, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 997, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-first #about-bold {
   font-weight: 600;
 }
 
-/* line 1003, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1001, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-first h2 {
   margin-top: -6px;
   margin-bottom: 40px;
 }
 
-/* line 1009, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1007, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-second {
   position: relative;
   min-height: 1px;
@@ -1619,59 +1625,59 @@ a {
 }
 
 @media (min-width: 992px) {
-  /* line 1009, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1007, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #about-second {
     width: 50%;
   }
 }
 
-/* line 1022, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1020, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-second h2 {
   margin-top: -6px;
   margin-bottom: 40px;
 }
 
-/* line 1028, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1026, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about__darkbutton2 {
   margin-bottom: 50px;
 }
 
 @media (min-width: 992px) {
-  /* line 1028, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1026, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #about__darkbutton2 {
     margin-bottom: 0px;
   }
 }
 
-/* line 1036, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1034, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #about-section {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 1041, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1039, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 1046, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1044, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about p, .about a, .about h2, .about h3, .about h5, .about blockquote {
   color: #ffffff;
 }
 
-/* line 1050, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1048, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about h2 {
   font-weight: 600;
   font-size: 2.25rem;
 }
 
-/* line 1055, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1053, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__text {
   color: #ffffff;
 }
 
-/* line 1059, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1057, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__darkbutton {
   background-color: #272936;
   border-radius: 6px;
@@ -1692,12 +1698,12 @@ a {
   text-decoration: none;
 }
 
-/* line 1065, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1063, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__darkbutton:hover {
   background-color: #121318;
 }
 
-/* line 1070, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1068, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__googlebutton {
   background-color: #4387f6;
   border-radius: 6px;
@@ -1719,19 +1725,19 @@ a {
 }
 
 @media (min-width: 1260px) {
-  /* line 1070, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1068, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .about__googlebutton {
     margin-top: 25px;
     float: left;
   }
 }
 
-/* line 1081, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1079, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__googlebutton:hover {
   background-color: #166af4;
 }
 
-/* line 1086, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1084, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__tpbutton {
   background-color: #00b67b;
   border-radius: 6px;
@@ -1752,20 +1758,20 @@ a {
   text-decoration: none;
 }
 
-/* line 1092, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1090, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__tpbutton:hover {
   background-color: #009b69;
 }
 
 @media (min-width: 1260px) {
-  /* line 1086, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1084, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .about__tpbutton {
     margin-top: 25px;
     float: right;
   }
 }
 
-/* line 1102, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1100, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__quote {
   font-size: 20.8px;
   font-weight: 600;
@@ -1775,7 +1781,7 @@ a {
   margin-top: 25px;
 }
 
-/* line 1110, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1108, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__quote footer {
   font-size: 1.1rem;
   font-weight: 600;
@@ -1783,36 +1789,36 @@ a {
   margin-bottom: 25px;
 }
 
-/* line 1120, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1118, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__quote footer cite {
   font-style: normal;
 }
 
-/* line 1123, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1121, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__quote footer cite p {
   color: #a3a8ac;
   display: inline;
 }
 
-/* line 1130, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1128, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about__quote footer cite a:hover {
   text-decoration: underline;
 }
 
-/* line 1142, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1140, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .about .icon-star::before {
   font-size: 50px;
   color: orange;
   margin-bottom: 25px;
 }
 
-/* line 1155, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1153, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news {
   display: grid;
   text-align: center;
 }
 
-/* line 1160, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1158, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news h2 {
   text-align: left;
   font-size: 2.7rem;
@@ -1820,17 +1826,17 @@ a {
   color: #333645;
 }
 
-/* line 1167, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1165, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news__viewmore {
   text-decoration: none;
 }
 
-/* line 1169, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1167, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news__viewmore :hover {
   text-decoration: underline;
 }
 
-/* line 1173, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1171, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news__viewmore-top {
   display: inline;
   float: right;
@@ -1842,25 +1848,25 @@ a {
 }
 
 @media (min-width: 460px) and (max-width: 768px) {
-  /* line 1173, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1171, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news__viewmore-top {
     display: none;
   }
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 1173, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1171, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news__viewmore-top {
     display: none;
   }
 }
 
-/* line 1184, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1182, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news__viewmore-top :hover {
   text-decoration: underline;
 }
 
-/* line 1188, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1186, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news__viewmore-bottom {
   display: none;
   font-size: 1.625rem;
@@ -1868,53 +1874,53 @@ a {
 }
 
 @media (min-width: 460px) and (max-width: 768px) {
-  /* line 1188, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1186, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news__viewmore-bottom {
     display: inline;
   }
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 1188, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1186, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news__viewmore-bottom {
     display: inline;
   }
 }
 
-/* line 1200, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1198, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card1cat, #card1but {
   background-color: #2ecc71;
   color: #ffffff;
 }
 
-/* line 1204, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1202, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card2cat, #card2but {
   background-color: #db8c0d;
   color: #ffffff;
 }
 
-/* line 1208, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1206, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card3cat, #card3but {
   background-color: #4183d7;
   color: #ffffff;
 }
 
-/* line 1212, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1210, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card1tit {
   color: #2ecc71;
 }
 
-/* line 1213, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1211, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card2tit {
   color: #db8c0d;
 }
 
-/* line 1214, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1212, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #card3tit {
   color: #4183d7;
 }
 
-/* line 1217, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1215, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card {
   background-color: #ffffff;
   align-self: center;
@@ -1924,14 +1930,14 @@ a {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1219, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1217, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card__container {
   display: grid;
   grid-template-areas: "one" "two" "three";
 }
 
 @media (min-width: 768px) {
-  /* line 1219, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1217, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .news-card__container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "one two";
@@ -1939,20 +1945,20 @@ a {
 }
 
 @media (min-width: 1260px) {
-  /* line 1219, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1217, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .news-card__container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "one two three";
   }
 }
 
-/* line 1247, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1245, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block1 {
   display: block;
   position: relative;
 }
 
-/* line 1252, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1250, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block1__category {
   background: #db8c0d;
   display: block;
@@ -1968,24 +1974,24 @@ a {
   text-transform: uppercase;
 }
 
-/* line 1269, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1267, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block1__image {
   box-sizing: border-box;
 }
 
-/* line 1271, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1269, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block1__image img {
   width: 100%;
   height: auto;
 }
 
-/* line 1279, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1277, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2 {
   text-align: left;
   padding: 30px;
 }
 
-/* line 1284, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1282, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__title {
   font-weight: 300;
   font-size: 1rem;
@@ -1993,7 +1999,7 @@ a {
   font-weight: 600;
 }
 
-/* line 1291, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1289, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__title-readtime {
   font-size: .85rem;
   color: #333601;
@@ -2003,14 +2009,14 @@ a {
   font-weight: 400;
 }
 
-/* line 1301, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1299, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__description {
   font-weight: 400;
   font-size: .8125rem;
   line-height: 1.375rem;
 }
 
-/* line 1307, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1305, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__button {
   background-color: #db8c0d;
   border-radius: 3px;
@@ -2029,7 +2035,7 @@ a {
   text-decoration: none;
 }
 
-/* line 1313, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1311, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author {
   border-top: 1px solid #ccc;
   margin-top: 30px;
@@ -2038,7 +2044,7 @@ a {
   width: 100%;
 }
 
-/* line 1322, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1320, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-image {
   border-radius: 50%;
   overflow: hidden;
@@ -2046,87 +2052,87 @@ a {
   width: 47px;
 }
 
-/* line 1329, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1327, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-text {
   padding-left: 20px;
   line-height: 1.35rem;
   text-align: left;
 }
 
-/* line 1336, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1334, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-text h5, .news-card-block2__author-text p {
   margin: 0;
 }
 
-/* line 1338, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1336, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-text h5 br, .news-card-block2__author-text p br {
   display: none;
 }
 
-/* line 1342, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1340, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-text-name {
   display: table-cell;
   font-weight: 600;
   color: #333645;
 }
 
-/* line 1348, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1346, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .news-card-block2__author-text-date {
   line-height: 1.37rem;
 }
 
 @media (min-width: 768px) {
-  /* line 1358, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1356, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news-hide {
     display: none;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 1358, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1356, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #news-hide {
     display: initial;
   }
 }
 
-/* line 1368, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1366, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news-card1 {
   grid-area: one;
 }
 
-/* line 1369, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1367, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news-card2 {
   grid-area: two;
 }
 
-/* line 1370, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1368, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #news-card3 {
   grid-area: three;
 }
 
-/* line 1378, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1376, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #page-footer-background {
   background-color: #323544;
 }
 
-/* line 1382, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1380, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 li {
   list-style-type: none;
 }
 
-/* line 1386, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1384, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #page-footer {
   padding-top: 27px;
 }
 
 @media (min-width: 1260px) {
-  /* line 1386, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1384, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   #page-footer {
     padding-top: 47px;
   }
 }
 
-/* line 1393, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1391, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -2135,26 +2141,26 @@ li {
   letter-spacing: 0.4px;
 }
 
-/* line 1401, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1399, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer #footer-logo {
   width: 320px;
   height: auto;
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 1401, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1399, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .footer #footer-logo {
     width: 250px;
   }
 }
 
-/* line 1411, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1409, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__socials {
   padding-right: 80px;
   background-color: #323544;
 }
 
-/* line 1416, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1414, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__socials__icon {
   justify-content: center;
   align-items: center;
@@ -2169,7 +2175,7 @@ li {
   padding: 12px 22px 16px;
 }
 
-/* line 1418, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1416, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__socials__icon-container {
   display: flex;
   flex-direction: row;
@@ -2178,19 +2184,19 @@ li {
 }
 
 @media (min-width: 1px) and (max-width: 460px) {
-  /* line 1416, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1414, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .footer__socials__icon {
     width: 107px;
   }
 }
 
-/* line 1448, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1446, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__socials__icon > span {
   position: relative;
   top: 4px;
 }
 
-/* line 1456, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1454, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__links {
   background-color: #323544;
   display: flex;
@@ -2201,19 +2207,19 @@ li {
   margin-left: -15px;
 }
 
-/* line 1472, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1470, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__links > div > ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 1477, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1475, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__links > div > ul h4 {
   margin-bottom: 26px;
 }
 
-/* line 1483, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1481, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__link-row {
   padding-right: 15px;
   padding-left: 15px;
@@ -2223,7 +2229,7 @@ li {
 }
 
 @media (min-width: 768px) {
-  /* line 1483, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1481, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .footer__link-row {
     flex-grow: 1;
     width: 50%;
@@ -2232,7 +2238,7 @@ li {
 }
 
 @media (min-width: 992px) {
-  /* line 1483, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1481, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .footer__link-row {
     flex-grow: 1;
     width: 25%;
@@ -2240,13 +2246,13 @@ li {
   }
 }
 
-/* line 1502, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1500, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__link-row > ul > h4 {
   font-weight: 400;
   margin: 0 0 15px;
 }
 
-/* line 1508, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1506, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__license {
   background-color: #212330;
   font-size: 13px;
@@ -2261,71 +2267,71 @@ li {
 }
 
 @media (min-width: 460px) {
-  /* line 1508, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+  /* line 1506, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
   .footer__license {
     flex-direction: row;
   }
 }
 
-/* line 1528, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1526, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__license > * {
   margin: 0;
   color: #ffffff;
 }
 
-/* line 1533, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1531, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .footer__license a:hover {
   text-decoration: underline;
 }
 
-/* line 1540, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1538, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 ul {
   padding-inline-start: 0px;
 }
 
-/* line 1544, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1542, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 h4 {
   font-weight: 400;
 }
 
-/* line 1548, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1546, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 li {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 1553, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1551, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 li a {
   text-decoration: none;
   color: #ffffff;
 }
 
-/* line 1558, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1556, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 li a:hover {
   text-decoration: underline;
 }
 
-/* line 1564, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1562, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #footer__social__fb:hover {
   background-color: #3b5998;
 }
 
-/* line 1567, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1565, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #footer__social__li:hover {
   background-color: #0077b5;
 }
 
-/* line 1570, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1568, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #footer__social__x:hover {
   background-color: #00aced;
 }
 
-/* line 1573, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1571, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 #footer__social__ig:hover {
   background-color: #d93175;
 }
 
-/* line 1579, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
+/* line 1577, ../../../../../Coding Projects/Netmatters-homepage-assessment/scss/partials/_main-styles.scss */
 .manage-consent {
   position: fixed;
   line-height: 22px;

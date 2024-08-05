@@ -316,12 +316,10 @@ a {
             :hover {
                 text-decoration: none;
             }
-            // :hover + #submenu-software {
-            //     text-decoration: none;
-            //     //  TODO: Show the Submenus
-            //     //  TODO: This is currently hiding it
-            //     display: none;
-            // }
+            :hover + #submenu-software {
+                text-decoration: none;
+                display: none;
+            }
 
             display: block;
             text-align: center;
